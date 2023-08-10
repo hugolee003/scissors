@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 
 
-mongoose.connect(process.env.MONGOOSE_URI);
+mongoose.connect(process.env.MONGO_URI);
 
 const urlSchema = new mongoose.Schema({
     longURL: String,
@@ -110,6 +110,6 @@ app.get('/:shortID', async (req, res) => {
     res.redirect(result.longURL);
 })
 
-app.listen(process.env.PORT || 3000, () => {
-    console.log("Successfully listening");
+app.listen(process.env.PORT || 8000, () => {
+    console.log("Server started at port 8000");
 })
