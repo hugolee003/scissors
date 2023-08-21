@@ -1,7 +1,7 @@
 
 # URL Shortener
 
-A URL Shortener made with the help of Node.js and MongoDB as Database.
+A URL Shortener made with the help of Node.js and MongoDB as a Database.
 ## Demo
 
 https://urlshortner-5ape.onrender.com
@@ -19,13 +19,13 @@ https://urlshortner-5ape.onrender.com
 Clone the project
 
 ```bash
-  git clone https://github.com/ssahibsingh/url-shortener.git
+  git clone https://github.com/hugoleeoo3/scissors.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd url-shortener
+  cd scissors
 ```
 
 Install dependencies
