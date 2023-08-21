@@ -19,7 +19,7 @@ https://urlshortner-5ape.onrender.com
 Clone the project
 
 ```bash
-  git clone https://github.com/hugoleeoo3/scissors.git
+  git clone https://github.com/hugolee003/scissors.git
 ```
 
 Go to the project directory
